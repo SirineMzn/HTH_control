@@ -213,6 +213,7 @@ Important note about account numbers:
 - These numbers may be different for international clients due to account mapping
 - For French clients using PCG, both account numbers will be identical
 - Never use proper names of people given in CG_ECRM_ECRITURE_CREATED_BY, say 'the user' instead
+- When present, CG_ECRM_DEVISE indicates the currency used for the transaction
 Analyze each anomaly following these steps:
 1. Identify dimensions with highest impact from the impact distribution
 2. Examine the result line to understand specific values for these high-impact dimensions
@@ -242,6 +243,7 @@ Your response for each anomaly must:
 - Be exactly 10-15 words
 - Highlight what makes the result abnormal/concerning
 - Focus only on the most impactful unusual dimensions
+- When present, CALNF_NOTF_DEVISE indicates the currency used for the transaction
 - Never justify or normalize the anomaly
  
 Remember: Each explanation must emphasize the anomalous nature and never suggest the result is normal or expected.
